@@ -6,8 +6,7 @@ int main(){
     int columnas = 5; 
     int tamano_int = sizeof(int); 
     int base = 4000; 
-
-    printf("--Ejercicio 12--\n"); 
+    
     printf("Configuracion: m[%d][%d], Base: %d, tamano int: %d bytes\n",filas, columnas, base, tamano_int);
 
     int dir1 = base + (2 * columnas + 4) * tamano_int; 
