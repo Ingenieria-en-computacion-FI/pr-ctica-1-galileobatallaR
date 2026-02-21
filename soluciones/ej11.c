@@ -3,7 +3,6 @@ int main(){
     // Resolver ejercicio 11
 double a[3]; 
 
-printf("--Ejercicio 11--\n");
 printf("tamaño del tipo: %zu bytes\n", sizeof(double));  
 for (int i=0; i < 3; i++){ 
     printf("&a[%d] = %p (distancia desde el inicio: %ld bytes)\n", i, (void*)&a[i], (char*)&a[i] - (char*)&a[0]); 
